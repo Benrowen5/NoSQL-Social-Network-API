@@ -28,7 +28,7 @@ const thoughtController = {
             .catch(err => {
                 console.log(err);
                 res.status(400).json(err);
-            })
+            });
     },
     // GET single thought by id
     getThoughtById({ params }, res) {
@@ -43,7 +43,7 @@ const thoughtController = {
             .catch(err => {
                 console.log(err);
                 res.status(400).json(err);
-            }) 
+            });
     },
     // Update Thought
     updateThought({params, body}, res) {
@@ -58,7 +58,7 @@ const thoughtController = {
             .catch(err => {
                 console.log(err);
                 res.status(400).json(err);
-            })
+            });
     },
     // DELETE Thought by id
     removeThought({params}, res) {
@@ -73,7 +73,7 @@ const thoughtController = {
             .catch(err => {
                 console.log(err);
             res.status(400).json(err);
-        })
+        });
     },
     // POST reaction to a thought
     addReaction({params, body}, res) {
@@ -92,7 +92,7 @@ const thoughtController = {
         .catch(err => {
             console.log(err);
             res.status(400).json(err);
-        })
+        });
     },
     // DELETE reaction
     removeReaction({params}, res) {
@@ -111,9 +111,8 @@ const thoughtController = {
             .catch(err => {
                 console.log(err);
                 res.status(400).json(err);
-            })
+            });
     }
 }
-
 
 module.exports = thoughtController;
