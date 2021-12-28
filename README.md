@@ -5,7 +5,7 @@
   ## Description
   This project is a basic backend NoSQL social network API which uses MongoDB for the database, Express.js for routing, and the Mongoose ODM.  
 
-  ![Demonstration Video](https://watch.screencastify.com/v/Ect1dSWICFTzsaeWgpBi)
+  [Demonstration Video](https://watch.screencastify.com/v/Ect1dSWICFTzsaeWgpBi)
   
   ![NoSQL SS1](https://user-images.githubusercontent.com/79202800/147599141-c24865e4-1679-487f-89e5-5bfe8e049c61.PNG)
   
