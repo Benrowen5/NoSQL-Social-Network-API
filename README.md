@@ -3,7 +3,7 @@
   ![License](https://img.shields.io/badge/license-MIT-blue)
   
   ## Description
-  Project description
+  This project is a basic backend NoSQL social network API which uses MongoDB for the database, Express.js for routing, and the Mongoose ODM.  
 
   ![image](link)
 
@@ -17,10 +17,10 @@
 * [Questions](#questions)
 ***************************************************************
 ## Installation
-Clone this repository to your local machine and install NPM & dependencies. 
+Clone this repository to your local machine and install NPM & dependencies. You will also need to ensure that MongoDB is installed on your machine.  
 
 ## Usage
-Usage instructions
+After installation, start the server by running 'npm start.' Using Insomnia or Postman, API routes can be tested (See the demonstration video for reference).
   
 ## License
   This project is covered under the MIT license. 
