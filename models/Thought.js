@@ -48,8 +48,19 @@ const ThoughtSchema = new Schema (
             trim: true
         },
         reactions: [ReactionSchema],
+    },
+    {
+        toJSON: {
+            virtuals: true,
+            getters: true
+        }
     }
 );
+
+// Get length of friends array for User
+reactionSchema.virtual('reactionCount').get(function() {
+    return this.reactions.length;
+})
 
 const Thought = model('Thought', ThoughtSchema);
 
